@@ -28,7 +28,7 @@ If you get stuck, take advantage of your mentorship services.
 
 ### Project Overview
 
-In the _Fitness and Chill -_  _Fitness and Meditation Companion Apps_ project, you'll create an app that allows you manage/set your daily workout and give you suggestion from list of all workout template available. The project emphasizes using Vue to maintain the front-end and Express to maintain the backend of the apps.
+In the _Fitness Apps_ project, you'll create an app that allows you manage/set your daily workout and give you suggestion from list of all workout template available. The project emphasizes using Vue to maintain the front-end and Express to maintain the backend of the apps.
 
 #### Get the Project
 

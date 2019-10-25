@@ -1,4 +1,4 @@
-# FSD 4 // Full-Stack Ticket Booking Web Application
+# FSD 4 // Venue Booking Apps
 
 ## Projects Concepts
 
@@ -28,7 +28,7 @@ If you get stuck, take advantage of your mentorship services.
 
 ### Project Overview
 
-In the _Full-Stack Ticket Booking Web Application_ project, you'll create an app that allows you to view all destinations/place or by its city and select destination you want to see the detail price of accommodation. The project emphasizes using every element you learn in this Degree.
+In the _Venue Booking Apps_ project, you'll create an app that allows you to view all destinations/place or by its city and select destination you want to see the detail price of accommodation. The project emphasizes using every element you learn in this Degree.
 
 #### Get the Project
 
@@ -46,18 +46,6 @@ The code in the starter repo contains all the CSS and HTML markup that may be us
 #### Starting from Scratch
 
 If you'd like to start completely from scratch, you can make your own files you need.
-
-#### App Functionality
-
-In this application, the main page displays 2 button/link to navigate between Personal Workout and Hero Workout. Personal Workout is an own workout set by user whatever they want. Hero Workout are list of precompiled workout named by superhero \(eg. Batman Workout contains: 20 squats, 40 punches, etc\)
-
-When user navigate to Personal Workout, user should see input and add button to add their personal workout. User receiving a list of personal workout added along with a checkbox in each workout to mark whether its done or not.
-
-When user navigate to Hero Workout, user should see list of precompiled workout from json containing images and title of workout. User could click detail button to view the detail of workout such as title and list of moves.
-
-The hero page also has a search form that allows you to find hero workout to see the details.
-
-The search form has a text input that may be used to filter hero workout quickly. As the value of the text input changes, the hero workout that match that query are displayed on the page, along with a control that lets you view the detail of workout.
 
 #### Submission Requirements
 
@@ -92,40 +80,9 @@ If you choose to develop on your local machine you will need to:
 
 Push your project to GitHub, making sure to push the master branch. On the project submission page choose the option "Submit with GitHub" Select the repository for this project \(you may need to connect your GitHub account first\).
 
-### Step by Step Guide For Building Travel Guide Website
+### User Story
 
-#### Planning Stage 📐
-
-**Step 1 - Draw All of the Page of the App** We need to determine the look and functionality of each view in your app. One of the best approaches is to draw each view of the app on paper so that you'll have a good idea of what information and data you're planning to have on each page.
-
-Instead of paper and pencil, you can be a bit more digital and use software for creating mockups. If you were given project specifications, check your mock against them to make sure that you have all of the required features. For the exercises that follow, your can just draw what you're trying to create on paper.
-
-**Step 2 - Break Each View Into a Hierarchy of Components** For this step,
-
-* draw boxes around every component; and
-* arrange our components into a hierarchy
-
-**Step 3 - Determine the Data Each Component Needs** For each component, determine which data is the component accessing, getting, modifying, or showing.
-
-#### Coding Stage🔨
-
-**Step 1 - Create Express project to make server up and running on port 3000.**
-
-**Step 2 - Build a static version of Homepage, Personal Workout and Hero Workout.**
-
-**Step 3 - Create a Card/List to hold data of Hero Workout and Personal Workout.**
-
-**Step 4 - Create add and delete Personal Workout in backend.**
-
-**Step 5 - Get data from Workout JSON and display data to the Hero Workout.**
-
-**Step 6 - Make sure that everything works as expected.**
-
-**Step 7 - Add navigation \(if necessary\).**
-
-**Step 8 - Add finishing touches and make sure the project meets the rubric.**
-
-Remember, this is just a template. As you build more projects, you'll modify this template to suit your needs. You may also find it more intuitive to use a different approach. Regardless of the approach you take, however, planning out your app is imperative to success.
+**User Story \# 1** - 
 
 ### Projects Submission
 
@@ -183,4 +140,6 @@ Once you have checked all these items, you are ready to submit!
 |  |  |
 |  |  |
 | Does the code run without errors? | The code runs without errors. There are no warnings that resulted from not following the best practices listed in the documentation. All code is functional and formatted properly. |
+
+
 

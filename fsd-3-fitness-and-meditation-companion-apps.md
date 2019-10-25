@@ -156,30 +156,24 @@ Once you have checked all these items, you are ready to submit!
 | Is the application easy to manage? | The application was created with separate css and js inside of each folder and index.html as an entry point for the website |
 | Does the application include README with clear installation and launch instructions? | An updated README that describes the project and has instructions for managing and modifying the project is included. |
 
-| Personal Page |  |
+| Personal Workout Page |  |
 | :--- | :--- |
 | CRITERIA | SPECIFICATIONS |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Apakah halaman personal workout menampilkan form input? | Halaman personal workout menampilkan form berupa input workout dan add button |
 
-| Hero Page |  |
+| Precompiled Workout Page |  |
 | :--- | :--- |
 | CRITERIA | SPECIFICATIONS |
-| Does the hero page show list of precompiled workout? | The hero page shows list of all workout. Each destination is showing the correct content, along with its title and detail button. |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Does the precompiled page show list of precompiled workout? | The precompiled page shows list of all workout. Each destination is showing the correct content, along with its title and detail button. |
+| Apakah halaman precompiled mempunyai search bar? | Halaman precompiled mempunyai search bar pada navigation bar di atas halaman. |
 
 | Code Functionality |  |
 | :--- | :--- |
 | CRITERIA | SPECIFICATIONS |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Apakah fungsi search bekerja? | Fungsi search pada search bar bekerja ketika user mengetik karakter pada search bar dan memfilter workout berdasarkan inputan. |
+| Apakah button detail pada precompiled workout bekerja? | Fungsi button detail pada precompiled workout bekerja ketika ada interaksi dengan menampilkan modal yang berisi detail dari precompiled workout. |
+| Apakah fungsi menambahkan workout pada personal workout bekerja? | User dapat mengetikan jenis workout pada input form dan ketika user menekan add, ada value baru yang ditambahkan sesuai seperti apa yang diketik user. |
+| Apakah fungsi checkbox pada personal workout bekerja? | User dapat berinteraksi dengan checkbox pada tiap workout di halaman personal workout dan style huruf akan menjadi strikethrough ketika workout dicentang. |
+| Apakah navigasi halaman bekerja? | User dapat bernavigasi dari halaman utama ke halaman personal ataupun ke precompiled maupun sebaliknya tanpa masalah. |
 | Does the code run without errors? | The code runs without errors. There are no warnings that resulted from not following the best practices listed in the documentation. All code is functional and formatted properly. |
 

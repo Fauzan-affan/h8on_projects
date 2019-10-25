@@ -1,4 +1,4 @@
-# \[Project Guide Template\]
+# FSD 4 // Full-Stack Ticket Booking Web Application
 
 ## Projects Concepts
 
@@ -28,7 +28,7 @@ If you get stuck, take advantage of your mentorship services.
 
 ### Project Overview
 
-In the _Travel Guide Website_ project, you'll create a landing page that allows you to view all destinations/place or by its city and select destination you want to see the price of accommodation. The project emphasizes using HTML to build the webpage, CSS to style the webpage, Javascript and DOM to view destination by city and to calculate the price of accommodation.
+In the _Full-Stack Ticket Booking Web Application_ project, you'll create an app that allows you to view all destinations/place or by its city and select destination you want to see the detail price of accommodation. The project emphasizes using every element you learn in this Degree.
 
 #### Get the Project
 
@@ -41,33 +41,23 @@ You have a few options to start developing this project:
 
 If you'd like to work locally on your own computer, fork and clone the starter repository.
 
-The code in the starter repo contains all the CSS and HTML markup that may be used but omits the JS code that is required to complete the project. This can save you some time if you don't wish to write all the CSS and HTML from scratch. The provided code will demonstrate a static HTML page of the finished application, but with no interactive functionality.
+The code in the starter repo contains all the CSS and HTML markup that may be used but omits the Vue, Node code, and Database that is required to complete the project. This can save you some time if you don't wish to write all the CSS and HTML from scratch. The provided code will demonstrate a static HTML page of the finished application, but with no interactive functionality.
 
 #### Starting from Scratch
 
-If you'd like to start completely from scratch, you can make your own index.html file and all of the CSS and Javascript files you need.
+If you'd like to start completely from scratch, you can make your own files you need.
 
 #### App Functionality
 
-In this application, the main page displays a list of all destinations \(i.e. Kota Tua, Bandungan, etc\), each of which contains a city to group. The destination must contains:
+In this application, the main page displays 2 button/link to navigate between Personal Workout and Hero Workout. Personal Workout is an own workout set by user whatever they want. Hero Workout are list of precompiled workout named by superhero \(eg. Batman Workout contains: 20 squats, 40 punches, etc\)
 
-* Destination Title
-* Description
-* Destination Image
-* Location
-* Expenses
+When user navigate to Personal Workout, user should see input and add button to add their personal workout. User receiving a list of personal workout added along with a checkbox in each workout to mark whether its done or not.
 
-The homepage of the Travel Guide shows the title "GoHere" and then all the list of destinations also the city drop down button to filter. You can also add the search input to search destinations quickly. The static home page \(and your completed app\) should look something like this.
+When user navigate to Hero Workout, user should see list of precompiled workout from json containing images and title of workout. User could click detail button to view the detail of workout such as title and list of moves.
 
-Each destination has a control that lets you select the destination to calculate for expenses. When you select a different destinations, the expenses will sum with previous destination and calculate the final estimated price. Note that the default value for the total price should always be zero if there is no destination selected.
+The hero page also has a search form that allows you to find hero workout to see the details.
 
-The detail page should launch a modal box to show the detail such as Destination Title, Description, Destination Image, Location, Expenses, and the "add to go" button to calculate the expenses and close button to navigate to home page.
-
-The main page also has a search form that allows you to find destinations to add to your Go.
-
-The search form has a text input that may be used to destination quickly. As the value of the text input changes, the destinations that match that query are displayed on the page, along with a control that lets you add the destination to your Go.
-
-When you navigate back to the main page from the destination detail modal, you should instantly see all of the destination you listed before.
+The search form has a text input that may be used to filter hero workout quickly. As the value of the text input changes, the hero workout that match that query are displayed on the page, along with a control that lets you view the detail of workout.
 
 #### Submission Requirements
 
@@ -75,7 +65,7 @@ Your submission should include all of the files necessary to launch your web app
 
 #### Considerations
 
-The focus of this project is on writing functional HTML, CSS, and JS code, not on making the page beautiful. Feel free to spend some time working on your layout and CSS if you want to, but the goal for this project is correct functionality.
+The focus of this project is on writing functional Vue and Node code, not on making the page beautiful. Feel free to spend some time working on your layout and CSS if you want to, but the goal for this project is correct functionality.
 
 ### Project Instructions & Rubric
 
@@ -102,7 +92,7 @@ If you choose to develop on your local machine you will need to:
 
 Push your project to GitHub, making sure to push the master branch. On the project submission page choose the option "Submit with GitHub" Select the repository for this project \(you may need to connect your GitHub account first\).
 
-### Step by Step Guide For \[Projects Name\]
+### Step by Step Guide For Building Travel Guide Website
 
 #### Planning Stage 📐
 
@@ -119,15 +109,15 @@ Instead of paper and pencil, you can be a bit more digital and use software for 
 
 #### Coding Stage🔨
 
-**Step 1 - Create the HTML main page layout that contain list of destinations and every component needed.**
+**Step 1 - Create Express project to make server up and running on port 3000.**
 
-**Step 2 - Style your HTML page with CSS.**
+**Step 2 - Build a static version of Homepage, Personal Workout and Hero Workout.**
 
-**Step 3 - Make a modal box to show destinations details that contain every component needed and don't forget the "add to Go" button.**
+**Step 3 - Create a Card/List to hold data of Hero Workout and Personal Workout.**
 
-**Step 4 - Create a component that hold the price/expenses value and sum all value using event listener.**
+**Step 4 - Create add and delete Personal Workout in backend.**
 
-**Step 5 - Create search function using Javascript to filter destinations based on user inputs.**
+**Step 5 - Get data from Workout JSON and display data to the Hero Workout.**
 
 **Step 6 - Make sure that everything works as expected.**
 
@@ -143,9 +133,7 @@ Remember, this is just a template. As you build more projects, you'll modify thi
 
 Please verify that your project adheres to our HTML, CSS, JavaScript, and Git style guidelines.
 
-If you chose to develop your project in your Workspace, you can submit directly from your Workspace. When you're ready to submit, go to your Workspace and just click the "Submit Project" button. That's all there is to it!
-
-If you chose to develop on your local machine \(by either starting with the starter project or starting from scratch with Create React App\), you will need to:
+If you chose to develop on your local machine you will need to:
 
 * Push your project to GitHub, making sure to push the master branch.
 * On the project submission page choose the option "Submit with GitHub"
@@ -160,4 +148,39 @@ Before submitting your project, please review and confirm the following items.
 * All required functionality exists and my project behaves as expected per the project's specifications.
 
 Once you have checked all these items, you are ready to submit!
+
+### Project Rubric
+
+| Application Setup |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+| Is the application easy to manage? | The application was created with separate css and js inside of each folder and index.html as an entry point for the website |
+| Does the application include README with clear installation and launch instructions? | An updated README that describes the project and has instructions for managing and modifying the project is included. |
+
+| Personal Page |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+| Hero Page |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+| Does the hero page show list of hero workout? | The hero page shows list of all workout. Each destination is showing the correct content, along with its title and detail button. |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+| Code Functionality |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+| Does the code run without errors? | The code runs without errors. There are no warnings that resulted from not following the best practices listed in the documentation. All code is functional and formatted properly. |
 

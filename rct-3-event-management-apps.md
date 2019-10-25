@@ -1,4 +1,4 @@
-# \[Project Guide Template\]
+# RCT 3 // Event Management Apps
 
 ## Projects Concepts
 
@@ -28,7 +28,7 @@ If you get stuck, take advantage of your mentorship services.
 
 ### Project Overview
 
-In the _Travel Guide Website_ project, you'll create a landing page that allows you to view all destinations/place or by its city and select destination you want to see the price of accommodation. The project emphasizes using HTML to build the webpage, CSS to style the webpage, Javascript and DOM to view destination by city and to calculate the price of accommodation.
+In the _Event Management Apps_ project, you'll create an app that allows you to add new event contain date time and countdown to the event. You can display the list of every event you made with countdown to event. The project emphasizes using React Native to build the app.
 
 #### Get the Project
 
@@ -41,33 +41,21 @@ You have a few options to start developing this project:
 
 If you'd like to work locally on your own computer, fork and clone the starter repository.
 
-The code in the starter repo contains all the CSS and HTML markup that may be used but omits the JS code that is required to complete the project. This can save you some time if you don't wish to write all the CSS and HTML from scratch. The provided code will demonstrate a static HTML page of the finished application, but with no interactive functionality.
+The code in the starter repo contains all the CSS and HTML markup that may be used but omits the React and Redux code that is required to complete the project. This can save you some time if you don't wish to write all the CSS and HTML from scratch. The provided code will demonstrate a static HTML page of the finished application, but with no interactive functionality.
 
 #### Starting from Scratch
 
-If you'd like to start completely from scratch, you can make your own index.html file and all of the CSS and Javascript files you need.
+If you'd like to start completely from scratch, you can make your own using the Create React App.
 
 #### App Functionality
 
-In this application, the main page displays a list of all destinations \(i.e. Kota Tua, Bandungan, etc\), each of which contains a city to group. The destination must contains:
+In this application, you will have 2 views: main page, and new event page. The main page displays some component such as Title and List of Event.
 
-* Destination Title
-* Description
-* Destination Image
-* Location
-* Expenses
+And the add new event page display form contain date time and the name of event.
 
-The homepage of the Travel Guide shows the title "GoHere" and then all the list of destinations also the city drop down button to filter. You can also add the search input to search destinations quickly. The static home page \(and your completed app\) should look something like this.
+The homepage allows you to search event quickly and display all of event in list with countdown. The static home page \(and your completed app\) should look something like this.
 
-Each destination has a control that lets you select the destination to calculate for expenses. When you select a different destinations, the expenses will sum with previous destination and calculate the final estimated price. Note that the default value for the total price should always be zero if there is no destination selected.
-
-The detail page should launch a modal box to show the detail such as Destination Title, Description, Destination Image, Location, Expenses, and the "add to go" button to calculate the expenses and close button to navigate to home page.
-
-The main page also has a search form that allows you to find destinations to add to your Go.
-
-The search form has a text input that may be used to destination quickly. As the value of the text input changes, the destinations that match that query are displayed on the page, along with a control that lets you add the destination to your Go.
-
-When you navigate back to the main page from the destination detail modal, you should instantly see all of the destination you listed before.
+The new event button allows you to add new event with form contain date time and name of event. And when you click save, event will show in the list of event in homepage, showing countdown of event until it disappear.
 
 #### Submission Requirements
 
@@ -75,7 +63,7 @@ Your submission should include all of the files necessary to launch your web app
 
 #### Considerations
 
-The focus of this project is on writing functional HTML, CSS, and JS code, not on making the page beautiful. Feel free to spend some time working on your layout and CSS if you want to, but the goal for this project is correct functionality.
+The focus of this project is on writing functional React Native code, not on making the page beautiful. Feel free to spend some time working on your layout and CSS if you want to, but the goal for this project is correct functionality.
 
 ### Project Instructions & Rubric
 
@@ -102,7 +90,7 @@ If you choose to develop on your local machine you will need to:
 
 Push your project to GitHub, making sure to push the master branch. On the project submission page choose the option "Submit with GitHub" Select the repository for this project \(you may need to connect your GitHub account first\).
 
-### Step by Step Guide For \[Projects Name\]
+### Step by Step Guide For Building Travel Guide Website
 
 #### Planning Stage 📐
 
@@ -119,19 +107,19 @@ Instead of paper and pencil, you can be a bit more digital and use software for 
 
 #### Coding Stage🔨
 
-**Step 1 - Create the HTML main page layout that contain list of destinations and every component needed.**
+**Step 1 - Break The UI Into A Component Hierarchy.**
 
-**Step 2 - Style your HTML page with CSS.**
+**Step 2 - Build A Static Version in React; including every component needed.**
 
-**Step 3 - Make a modal box to show destinations details that contain every component needed and don't forget the "add to Go" button.**
+**Step 3 - Build Add new event form.**
 
-**Step 4 - Create a component that hold the price/expenses value and sum all value using event listener.**
+**Step 4 - Store all State in Redux.**
 
-**Step 5 - Create search function using Javascript to filter destinations based on user inputs.**
+**Step 5 - Add Inverse Data Flow.**
 
 **Step 6 - Make sure that everything works as expected.**
 
-**Step 7 - Add navigation \(if necessary\).**
+**Step 7 - Add navigation to / \(root page\).**
 
 **Step 8 - Add finishing touches and make sure the project meets the rubric.**
 
@@ -142,8 +130,6 @@ Remember, this is just a template. As you build more projects, you'll modify thi
 #### Instructions
 
 Please verify that your project adheres to our HTML, CSS, JavaScript, and Git style guidelines.
-
-If you chose to develop your project in your Workspace, you can submit directly from your Workspace. When you're ready to submit, go to your Workspace and just click the "Submit Project" button. That's all there is to it!
 
 If you chose to develop on your local machine \(by either starting with the starter project or starting from scratch with Create React App\), you will need to:
 
@@ -160,4 +146,48 @@ Before submitting your project, please review and confirm the following items.
 * All required functionality exists and my project behaves as expected per the project's specifications.
 
 Once you have checked all these items, you are ready to submit!
+
+### Project Rubric
+
+| Application Setup |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+| Is the application easy to install? | The application could be installed by executing npm install. |
+| Does the application include README with clear installation and launch instructions? | An updated README that describes the project and has instructions for managing and launching the project is included. |
+
+| Main Page |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+| Detail Page |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+| Cart Page |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+| Code Functionality |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+| Does the code run without errors? | The code runs without errors. There are no warnings that resulted from not following the best practices listed in the documentation. All code is functional and formatted properly. |
 

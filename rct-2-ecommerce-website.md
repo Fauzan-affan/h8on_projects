@@ -1,4 +1,4 @@
-# \[Project Guide Template\]
+# RCT 2 // Ecommerce Website
 
 ## Projects Concepts
 
@@ -28,7 +28,7 @@ If you get stuck, take advantage of your mentorship services.
 
 ### Project Overview
 
-In the _Travel Guide Website_ project, you'll create a landing page that allows you to view all destinations/place or by its city and select destination you want to see the price of accommodation. The project emphasizes using HTML to build the webpage, CSS to style the webpage, Javascript and DOM to view destination by city and to calculate the price of accommodation.
+In the _Ecommerce_ project, you'll create an ecommerce website that able to display the goods in a list, add to cart, add to wishlist, search goods by its name and filter goods by category. When you add goods to cart, the cart page should contains the every goods you add before. The project emphasizes using React to build the app and Redux to maintain the state of every component. 
 
 #### Get the Project
 
@@ -41,33 +41,37 @@ You have a few options to start developing this project:
 
 If you'd like to work locally on your own computer, fork and clone the starter repository.
 
-The code in the starter repo contains all the CSS and HTML markup that may be used but omits the JS code that is required to complete the project. This can save you some time if you don't wish to write all the CSS and HTML from scratch. The provided code will demonstrate a static HTML page of the finished application, but with no interactive functionality.
+The code in the starter repo contains all the CSS and HTML markup that may be used but omits the React and Redux code that is required to complete the project. This can save you some time if you don't wish to write all the CSS and HTML from scratch. The provided code will demonstrate a static HTML page of the finished application, but with no interactive functionality.
 
 #### Starting from Scratch
 
-If you'd like to start completely from scratch, you can make your own index.html file and all of the CSS and Javascript files you need.
+If you'd like to start completely from scratch, you can make your own using the Create React App.
 
 #### App Functionality
 
-In this application, the main page displays a list of all destinations \(i.e. Kota Tua, Bandungan, etc\), each of which contains a city to group. The destination must contains:
+In this application, you will have 3 pages: main page, detail page, and cart page. The main page displays some component such as:
 
-* Destination Title
-* Description
-* Destination Image
-* Location
-* Expenses
+* Title
+* Wishlist Button and Badges
+* Cart Button and Badges
+* Search Bar
+* Dropdown to filter by Category
+* List of Items containing Detail and Add to Cart button
+* Add new Items at the bottom of page
 
-The homepage of the Travel Guide shows the title "GoHere" and then all the list of destinations also the city drop down button to filter. You can also add the search input to search destinations quickly. The static home page \(and your completed app\) should look something like this.
+The homepage allows you to search items quickly, add items to wishlist or cart, and filter item based on its category. The static home page \(and your completed app\) should look something like this.
 
-Each destination has a control that lets you select the destination to calculate for expenses. When you select a different destinations, the expenses will sum with previous destination and calculate the final estimated price. Note that the default value for the total price should always be zero if there is no destination selected.
+Each item has a control that lets you select the item to wishlist or add to cart. When you select an item to wishlist, wishlist badges count should increase and when you click the wishlist button, it should display a dropdown/modal containing all items on your wishlist.
 
-The detail page should launch a modal box to show the detail such as Destination Title, Description, Destination Image, Location, Expenses, and the "add to go" button to calculate the expenses and close button to navigate to home page.
+When you select an item to cart, cart badges count should increase and when you click the cart button, it should redirect you to cart page. The Cart page contains every items you added before in a list and remove button to remove items from cart. Also at the bottom of cart page we can see the grand total price of the items in cart.
 
-The main page also has a search form that allows you to find destinations to add to your Go.
+The detail page should contains Title, Wishlist and Cart Button, item images, item description, price, add to cart and wishlist button with same functionality as referred above.
 
-The search form has a text input that may be used to destination quickly. As the value of the text input changes, the destinations that match that query are displayed on the page, along with a control that lets you add the destination to your Go.
+The main page also has a search form that allows you to find items based on its name.
 
-When you navigate back to the main page from the destination detail modal, you should instantly see all of the destination you listed before.
+The search form has a text input that may be used to filter the items quickly. As the value of the text input changes, the podcast that match that query are displayed on the page, along with a control that lets you view the detail of your items or add the items to cart.
+
+When you click add new items button, it should launch a modal box containing new item form such as title, description, price, etc. You can click the save button and should redirect to homepage and see the new items you added in the list.
 
 #### Submission Requirements
 
@@ -75,7 +79,7 @@ Your submission should include all of the files necessary to launch your web app
 
 #### Considerations
 
-The focus of this project is on writing functional HTML, CSS, and JS code, not on making the page beautiful. Feel free to spend some time working on your layout and CSS if you want to, but the goal for this project is correct functionality.
+The focus of this project is on writing functional React code, not on making the page beautiful. Feel free to spend some time working on your layout and CSS if you want to, but the goal for this project is correct functionality.
 
 ### Project Instructions & Rubric
 
@@ -102,7 +106,7 @@ If you choose to develop on your local machine you will need to:
 
 Push your project to GitHub, making sure to push the master branch. On the project submission page choose the option "Submit with GitHub" Select the repository for this project \(you may need to connect your GitHub account first\).
 
-### Step by Step Guide For \[Projects Name\]
+### Step by Step Guide For Building Travel Guide Website
 
 #### Planning Stage 📐
 
@@ -119,21 +123,25 @@ Instead of paper and pencil, you can be a bit more digital and use software for 
 
 #### Coding Stage🔨
 
-**Step 1 - Create the HTML main page layout that contain list of destinations and every component needed.**
+**Step 1 - Break The UI Into A Component Hierarchy.**
 
-**Step 2 - Style your HTML page with CSS.**
+**Step 2 - Build A Static Version in React; including the search form, and every component needed.**
 
-**Step 3 - Make a modal box to show destinations details that contain every component needed and don't forget the "add to Go" button.**
+**Step 3 - Build Add new items form.**
 
-**Step 4 - Create a component that hold the price/expenses value and sum all value using event listener.**
+**Step 4 - Identify The Minimal \(but complete\) Representation Of UI State.**
 
-**Step 5 - Create search function using Javascript to filter destinations based on user inputs.**
+**Step 5 - Identify Where Your State Should Live.**
 
-**Step 6 - Make sure that everything works as expected.**
+**Step 6 - Store all State in Redux.**
 
-**Step 7 - Add navigation \(if necessary\).**
+**Step 7 - Add Inverse Data Flow.**
 
-**Step 8 - Add finishing touches and make sure the project meets the rubric.**
+**Step 8 - Make sure that everything works as expected.**
+
+**Step 9 - Add navigation to / \(root page\).**
+
+**Step 10 - Add finishing touches and make sure the project meets the rubric.**
 
 Remember, this is just a template. As you build more projects, you'll modify this template to suit your needs. You may also find it more intuitive to use a different approach. Regardless of the approach you take, however, planning out your app is imperative to success.
 
@@ -142,8 +150,6 @@ Remember, this is just a template. As you build more projects, you'll modify thi
 #### Instructions
 
 Please verify that your project adheres to our HTML, CSS, JavaScript, and Git style guidelines.
-
-If you chose to develop your project in your Workspace, you can submit directly from your Workspace. When you're ready to submit, go to your Workspace and just click the "Submit Project" button. That's all there is to it!
 
 If you chose to develop on your local machine \(by either starting with the starter project or starting from scratch with Create React App\), you will need to:
 
@@ -160,4 +166,48 @@ Before submitting your project, please review and confirm the following items.
 * All required functionality exists and my project behaves as expected per the project's specifications.
 
 Once you have checked all these items, you are ready to submit!
+
+### Project Rubric
+
+| Application Setup |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+| Is the application easy to install? | The application could be installed by executing npm install. |
+| Does the application include README with clear installation and launch instructions? | An updated README that describes the project and has instructions for managing and launching the project is included. |
+
+| Main Page |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+| Detail Page |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+| Cart Page |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+| Code Functionality |  |
+| :--- | :--- |
+| CRITERIA | SPECIFICATIONS |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+| Does the code run without errors? | The code runs without errors. There are no warnings that resulted from not following the best practices listed in the documentation. All code is functional and formatted properly. |
 

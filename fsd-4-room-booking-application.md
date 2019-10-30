@@ -1,4 +1,4 @@
-# FSD 5 // Room Booking Apps
+# Web Apps Project 5 // Room Booking Apps
 
 ## Projects Concepts
 
@@ -28,7 +28,7 @@ If you get stuck, take advantage of your mentorship services.
 
 ### Project Overview
 
-In the _Venue Booking Apps_ project, you'll create an app that allows you to view all destinations/place or by its city and select destination you want to see the detail price of accommodation. The project emphasizes using every element you learn in this Degree.
+In the _Room Booking Apps_ project, you'll create an app that allows you to view all conference/meeting room or by search filter and select rooms you want to book at certain date and time. The project emphasizes using every element you learn in this Degree.
 
 #### Get the Project
 
@@ -57,17 +57,6 @@ The focus of this project is on writing functional Vue and Node code, not on mak
 
 ### Project Instructions & Rubric
 
-#### Before Submitting
-
-Make sure your code adheres to our HTML, CSS, JavaScript, and Git style guidelines.
-
-* KODEgree's HTML Style Guide
-* KODEgree's CSS Style Guide
-* KODEgree's JavaScript Style Guide
-* KODEgree's Git Style Guide
-
-We recommend using Git from the very beginning. Make sure to commit often and to use well-formatted commit messages that conform to our guidelines.
-
 #### How will this project be evaluated
 
 Your project will be evaluated by a KODEgree Code Reviewer according to the rubric. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass.
@@ -84,49 +73,55 @@ Push your project to GitHub, making sure to push the master branch. On the proje
 
 **All Members**
 
-In order to not have to enter my login details each visit, as a Staff Member, I want to have the application remember me.
+**User Story \# 1** - In order to not have to enter my login details each visit, as a Staff Member, I want to have the application remember me.
 
-In order to see if there are available rooms on a specific date, as a Member, I want to be able to pick a date and see an overview of all available rooms and availability for that date.
+**User Story \# 2 -** In order to see if there are available rooms on a specific date, as a Member, I want to be able to pick a date and see an overview of all available rooms and availability for that date.
 
-In order to find a room with a projector, as a Member, I want to be able to filter out rooms that don’t have a projector.
+**User Story \# 3 -** In order to find a room with a projector, as a Member, I want to be able to filter out rooms that don’t have a projector.
 
-In order to see all assets a room has, as a Staff Member, I want to view a list all the room's assets.
+**User Story \# 4 -** In order to see all assets a room has, as a Staff Member, I want to view a list all the room's assets.
 
-In order to find out who has booked a specific room, as a Staff Member, I want to be able to see details about who the room was booked for.
+**User Story \# 5 -** In order to find out who has booked a specific room, as a Staff Member, I want to be able to see details about who the room was booked for.
 
-In order to view future room bookings, as a Staff Member, I want to be able to select a date using a calendar or search for a date.
+**User Story \# 6 -** In order to view future room bookings, as a Staff Member, I want to be able to select a date using a calendar or search for a date.
 
-In order to find a room that has enough chairs, as a Staff Member, I want to be able to view room capacity.
+**User Story \# 7 -** In order to find a room that has enough chairs, as a Staff Member, I want to be able to view room capacity.
 
 **Admin**
 
-In order to create a new Admin User, as an Admin User, I want to be able to add and/or approve admin user accounts.
+**User Story \# 1 -** In order to create a new Admin User, as an Admin User, I want to be able to add and/or approve admin user accounts.
 
-In order to enable full access to the application, as an Admin User, I want to be able to add and/or approve full user accounts.
+**User Story \# 2 -** In order to enable full access to the application, as an Admin User, I want to be able to add and/or approve full user accounts.
 
-In order to update the app with future company developments, as an Admin User, I want to be able to add buildings, floors, rooms and assets.
+**User Story \# 3 -** In order to update the app with future company developments, as an Admin User, I want to be able to add buildings, floors, rooms and assets.
 
 **Apps**
 
-My Room Booking should have login and register page for member.
+**User Story \# 1 -** My Room Booking should have login and register page for member.
 
-My Room Booking should have a navbar with an id of `navbar`. Contain link to homepage, booking status for member, and logout button.
+**User Story \# 2 -** My Room Booking should have a navbar with an id of `navbar`. Contain link to homepage, booking status for member, and logout button.
 
-The navbar should always be at the top of the viewport.
+![](.gitbook/assets/screen-shot-2019-10-30-at-16.02.50.png)
 
-My Room Booking should have search form contain date and time, capacity, and assets.
+**User Story \# 3 -** The navbar should always be at the top of the viewport.
 
-My Room Booking search result section should have a list of room using card deck with `class="card-deck"`.
+**User Story \# 4 -** My Room Booking should have search form contain date and time, capacity, and assets.
 
-Each room displayed using card. Card Body should contain room name in `card-title` , room description and list of assets in `card-text`. In `card-footer` section should contain book button.
+![](.gitbook/assets/screen-shot-2019-10-30-at-16.01.01.png)
 
-My Room Booking should have a database named "H8\_Room\_Booking"
+**User Story \# 5 -** My Room Booking search result section should have a list of room using card deck with `class="card-deck"`.
 
-"H8\_Room\_Booking" should have 3 tables. `users` tables for users data containing user\_id, username, password, and role. `rooms` tables for rooms data containing room\_id, name, description, capacity, and assets. `booking` tables for booking data containing user\_id, date and time, and room\_id.
+![](.gitbook/assets/screen-shot-2019-10-30-at-16.04.42.png)
 
-My Room Booking admin role can create, update, and delete rooms and rooms details.
+**User Story \# 6 -** Each room displayed using card. Card Body should contain room name in `card-title` , room description and list of assets in `card-text`. In `card-footer` section should contain book button.
 
-My Room Booking admin role can create, update, and delete users.
+**User Story \# 7 -** My Room Booking should have a database named "H8\_Room\_Booking"
+
+**User Story \# 8 -** "H8\_Room\_Booking" should have 3 tables. `users` tables for users data containing user\_id, username, password, and role. `rooms` tables for rooms data containing room\_id, name, description, capacity, and assets. `booking` tables for booking data containing user\_id, date and time, and room\_id.
+
+**User Story \# 9 -** My Room Booking admin role can create, update, and delete rooms and rooms details.
+
+**User Story \# 10 -** My Room Booking admin role can create, update, and delete users.
 
 ### Projects Submission
 

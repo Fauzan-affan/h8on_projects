@@ -1,4 +1,4 @@
-# FSD 3 // Fitness Companion Apps
+# Web Apps Project 3 // Fitness Companion Apps
 
 ## Projects Concepts
 
@@ -28,7 +28,7 @@ If you get stuck, take advantage of your mentorship services.
 
 ### Project Overview
 
-In the _Fitness Apps_ project, you'll create an app that allows you manage/set your daily workout and give you suggestion from list of all workout template available. The project emphasizes using Vue to maintain the front-end and Express to maintain the backend of the apps.
+In the _Fitness Companion_ _Apps_ project, you'll create an app that allows you manage/set your daily workout and give you suggestion from list of all workout template available. The project emphasizes using Vue to maintain the front-end and Express to maintain the backend of the apps.
 
 #### Get the Project
 
@@ -49,7 +49,7 @@ If you'd like to start completely from scratch, you can make your own files you 
 
 #### App Functionality
 
-In this application, the main page displays 2 button/link to navigate between Personal Workout and Hero Workout. Personal Workout is an own workout set by user whatever they want. Hero Workout are list of precompiled workout named by superhero \(eg. Batman Workout contains: 20 squats, 40 punches, etc\)
+In this application, the main page displays 2 button/link to navigate between Personal Workout and Precompiled Workout. Personal Workout is an own workout set by user whatever they want. Precompiled Workout are list of precompiled workout named by superhero \(eg. Batman Workout contains: 20 squats, 40 punches, etc\)
 
 ![Fitness Homepage](.gitbook/assets/screen-shot-2019-10-24-at-17.39.40.png)
 
@@ -77,17 +77,6 @@ The focus of this project is on writing functional Vue and Node code, not on mak
 
 ### Project Instructions & Rubric
 
-#### Before Submitting
-
-Make sure your code adheres to our HTML, CSS, JavaScript, and Git style guidelines.
-
-* KODEgree's HTML Style Guide
-* KODEgree's CSS Style Guide
-* KODEgree's JavaScript Style Guide
-* KODEgree's Git Style Guide
-
-We recommend using Git from the very beginning. Make sure to commit often and to use well-formatted commit messages that conform to our guidelines.
-
 #### How will this project be evaluated
 
 Your project will be evaluated by a KODEgree Code Reviewer according to the rubric. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass.
@@ -110,21 +99,31 @@ Push your project to GitHub, making sure to push the master branch. On the proje
 
 ![](.gitbook/assets/screen-shot-2019-10-24-at-17.39.40.png)
 
-**User Story \# 4** - ****My Fitness Companion precompiled workout section should have a workout section using card deck with `class="card-deck"`.
+**User Story \# 4** - ****My Fitness Companion precompiled workout section should have a workout section using card deck with `class="card-deck"`. You should fetch the precompiled workout data from JSON file.
 
-**User Story \# 5** - ****Each precompiled workout displayed using card. Card Body should contain workout title in `card-title` and workout description in `card-text`. In `card-footer` section should contain detail button.
+**User Story \# 5** - ****Each precompiled workout displayed using card. Card Body should contain workout title in `card-title` and workout description in `card-text` which all the data should be fetched from JSON file. In `card-footer` section should contain detail button.
 
 ![](.gitbook/assets/screen-shot-2019-10-24-at-17.46.53.png)
 
-**User Story \# 6** - When clicking the detail button, My Fitness Companion should launch a modal box contain workout title, short workout description and exercise.
+**User Story \# 6** - When clicking the detail button, My Fitness Companion should launch a modal box contain workout title, short workout description and exercise data from JSON file.
+
+**User Story \# 7** - My Fitness Companion should display the correct destination when typing specific destination in the search form in precompiled workout section.
 
 ![](.gitbook/assets/screen-shot-2019-10-24-at-17.56.40.png)
 
-**User Story \# 7** - In personal workout section, when clicking add button, My Fitness Companion should add user's personal exercise.
+**User Story \# 8** - In personal workout section, My Fitness Companion should have workout type input element with id of `addWorkout` and clickable element with id of `addButton` to submit workout type.
+
+**User Story \# 9** - In personal workout section, My Fitness Companion should have workout list section with id of `workoutList`. 
 
 ![](.gitbook/assets/screen-shot-2019-10-24-at-18.09.34.png)
 
-**User Story \# 8** - My Fitness Companion should display the correct destination when typing specific destination in the search form in precompiled workout section.
+**User Story \# 10** - When I click the element with id of `addButton`, the value within id of `addWorkout` should displayed in workout list section of id `workoutList`. New list of workout in workout list should have id of `toDo1`.
+
+**User Story \# 11** - When I already have Workout in my workout list section, a new workout added should be on top of the old workout with new increment id based on last id.
+
+**User Story \# 12** - Each workout displayed in workoutList id should have checkbox.
+
+**User Story \# 13** - When i click the checkbox, workout within that checkbox should disappear and workout below should go up.
 
 ### Projects Submission
 

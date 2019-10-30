@@ -1,4 +1,4 @@
-# FSD 1 // Travel Guide Website
+# Web Apps Project 1 // Travel Guide Website
 
 ## Projects Concepts
 
@@ -82,17 +82,6 @@ Your submission should include all of the files necessary to launch your web app
 The focus of this project is on writing functional HTML, CSS, and JS code, not on making the page beautiful. Feel free to spend some time working on your layout and CSS if you want to, but the goal for this project is correct functionality.
 
 ### Project Instructions & Rubric
-
-#### Before Submitting
-
-Make sure your code adheres to our HTML, CSS, JavaScript, and Git style guidelines.
-
-* KODEgree's HTML Style Guide
-* KODEgree's CSS Style Guide
-* KODEgree's JavaScript Style Guide
-* KODEgree's Git Style Guide
-
-We recommend using Git from the very beginning. Make sure to commit often and to use well-formatted commit messages that conform to our guidelines.
 
 #### How will this project be evaluated
 

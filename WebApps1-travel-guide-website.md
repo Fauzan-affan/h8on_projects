@@ -101,15 +101,15 @@ User Story is a description of an application’s functionality. In order to com
 
 **User Story \# 1** - My Travel Guide should have a navbar with an id of `navbar`.
 
-**User Story \# 2** - ****The navbar should contain search bar and element that hold total expenses. The navbar should always be at the top of the viewport.
+**User Story \# 2** - The navbar should contain search bar and element that hold total expenses. The navbar should always be at the top of the viewport.
 
 ![Navbar](.gitbook/assets/screen-shot-2019-10-24-at-15.57.23.png)
 
-**User Story \# 3** - ****The welcome section should have an `h1` element that contains text of website title.
+**User Story \# 3** - The welcome section should have an `h1` element that contains text of website title.
 
-**User Story \# 4** - ****My Travel Guide should have a projects section using card deck with `class="card-deck"`.
+**User Story \# 4** - My Travel Guide should have a projects section using card deck with `class="card-deck"`.
 
-**User Story \# 5** - ****Each destination displayed using card. Card Body should contain Destination Title in `card-title` and Destination Description in `card-text`. In `card-footer` section should contain Total Expenses, Detail Button, and Wishlist Button.
+**User Story \# 5** - Each destination displayed using card. Card Body should contain Destination Title in `card-title` and Destination Description in `card-text`. In `card-footer` section should contain Total Expenses, Detail Button, and Wishlist Button.
 
 ![Destination Card](.gitbook/assets/screen-shot-2019-10-24-at-16.12.15.png)
 

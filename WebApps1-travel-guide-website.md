@@ -93,9 +93,11 @@ The project rubric is your source of truth while building this project. Save it 
 
 If you choose to develop on your local machine you will need to:
 
-Push your project to GitHub, making sure to push the master branch. On the project submission page choose the option "Submit with GitHub" Select the repository for this project \(you may need to connect your GitHub account first\).
+Upload your zip file to Hacktiv8 Online Program Projects submissions.
 
 ### User Story
+
+User Story is a description of an application’s functionality. In order to complete this project, you have to build an apps that cover all the functionality from the user story below.
 
 **User Story \# 1** - My Travel Guide should have a navbar with an id of `navbar`.
 
@@ -167,3 +169,11 @@ Once you have checked all these items, you are ready to submit!
 | Does the destination details show the correct content? | Destination detail page contain Destination Title, Description, Destination Image, Location, Expenses, and the "add to go" button. |
 | Does the code run without errors? | The code runs without errors. There are no warnings that resulted from not following the best practices listed in the documentation. All code is functional and formatted properly. |
 
+| Skillset Checklist |
+| :--- |
+| CRITERIA |
+| Able to write HTML Tags |
+| Able to write Css Syntax |
+| Able to do basic conditionals |
+| Able to do basic loops |
+| Able to do basic DOM Manipulation |

@@ -121,17 +121,11 @@ User Story is a description of an application’s functionality. In order to com
 
 **User Story \# 8** - My Travel Guide should display the correct destination when typing specific destination in the search form.
 
+**User Story \# 9** - My Travel Guide should display your personal bio in the about page. Your personal bio should have your image, short description of your bio, table containing your education or work experience. And contact us form.
+
+**User Story \# 10** - In about page, contact us forms should have email, name, and message text input. Add form validation for you contact page such as: all forms must be filled out, email forms should have email format and message text input should have less then 200 character.
+
 ### Projects Submission
-
-#### Instructions
-
-Please verify that your project adheres to our HTML, CSS, JavaScript, and Git style guidelines.
-
-If you chose to develop on your local machine you will need to:
-
-* Push your project to GitHub, making sure to push the master branch.
-* On the project submission page choose the option "Submit with GitHub"
-* Select the repository for this project \(you may need to connect your GitHub account first\).
 
 #### Project Submission Checklist
 
@@ -164,9 +158,9 @@ Once you have checked all these items, you are ready to submit!
 | :--- | :--- |
 | CRITERIA | SPECIFICATIONS |
 | Does the project code handle the search function appropriately? | Everytime user type on search form, destination that match the criteria shown on homepage. |
-| Does the project code handle the add to wishlist function properly? | When user click the add to go button, price of the destination expenses added to expenses column. |
-| Does the total of destination expenses correct? | total destination expenses are sum of every destination added with add to go button. |
-| Does the destination details show the correct content? | Destination detail page contain Destination Title, Description, Destination Image, Location, Expenses, and the "add to go" button. |
+| Does the project code handle the add to wishlist function properly? | When user click the add to wishlist button, price of the destination expenses added to expenses column. |
+| Does the total of destination expenses correct? | total destination expenses are sum of every destination added with add to wishlist button. |
+| Does the destination details show the correct content? | Destination detail page contain Destination Title, Description, Destination Image, Location, Expenses, and the "add to wishlist" button. |
 | Does the code run without errors? | The code runs without errors. There are no warnings that resulted from not following the best practices listed in the documentation. All code is functional and formatted properly. |
 
 | Skillset Checklist |

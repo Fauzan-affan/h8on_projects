@@ -85,7 +85,7 @@ The focus of this project is on writing functional HTML, CSS, and JS code, not o
 
 #### How will this project be evaluated
 
-Your project will be evaluated by a KODEgree Code Reviewer according to the rubric. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass.
+Your project will be evaluated by a Hacktiv8 Online Programs Code Reviewer according to the rubric. Be sure to review it thoroughly before you submit. All criteria must "meet specifications" in order to pass. You are not suggested to use any library outside of what we've learned in this Online Programs.
 
 The project rubric is your source of truth while building this project. Save it to your browser bookmarks so you can access it easily!
 
